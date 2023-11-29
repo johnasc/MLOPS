@@ -40,7 +40,7 @@ class DataTransformation:
             num_pipeline= Pipeline(
                 steps=[
                 ("imputer",SimpleImputer(strategy="median")),
-                ("scaler",StandardScaler(with_mean=False))
+                ("scaler",StandardScaler())
 
                 ]
             )
@@ -122,8 +122,3 @@ class DataTransformation:
             )
         except Exception as e:
             raise CustomException(e,sys)
-        
-
-
-
-
