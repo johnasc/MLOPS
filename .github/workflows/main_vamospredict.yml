@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'vamospredict'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C095DC7584B646F3AE8D3F76DA56A5FC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_745739352EBD46FEAA4A784DDE7C10A1 }}
